@@ -5,9 +5,9 @@ class PostLink extends React.Component{
     render(){
         return(
             <div className="post-link">
-                <Link to="/react">React</Link>
-                <Link to="/redux">Redux</Link>
-                <Link to="/relay">Relay</Link>
+                <Link to="/post/react">React</Link>
+                <Link to="/post/redux">Redux</Link>
+                <Link to="/post/relay">Relay</Link>
             </div>
         );
     };

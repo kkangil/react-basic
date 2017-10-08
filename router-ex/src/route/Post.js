@@ -12,9 +12,9 @@ class Post extends React.Component{
                 <div className="content">
                     <h2>포스트</h2>
                     <PostLink />
-                    <Route path="/react" component={ReactPost}/>
-                    <Route path="/redux" component={Redux}/>
-                    <Route path="/relay" component={Relay}/>
+                    <Route path="/post/react" component={ReactPost}/>
+                    <Route path="/post/redux" component={Redux}/>
+                    <Route path="/post/relay" component={Relay}/>
                 </div>
             </BrowserRouter>
         );
